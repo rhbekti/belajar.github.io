@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Online Belajar</title>
+    <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h3>Tikako</h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active mx-3">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Category</a>
+                        </li>
+                        <li class="nav-item dropdown mx-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Produk
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Baju</a>
+                                <a class="dropdown-item" href="#">Sepatu</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Lainnya</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Cari Produk"
+                                    aria-label="Search">
+                                <button class="btn btn-success my-2 my-sm-0" type="submit">Cari</button>
+                            </form>
+                        </li>
+                    </ul>
+                    <h6 class="text-white">Keranjang | </h6>
+                    <h6 class="text-white ml-2"><span class="sr-only">(current)</span> Rahman Pambekti</h6>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid bg-primary">
+        <!--Carousel-->
+        <div id="carouselExampleIndicators" class="carousel slide p-5" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner text-white">
+                <div class="container">
+                    <div class="carousel-item active">
+                        <div class="row pt-5 justify-content-center">
+                            <div class="col-9 col-sm-4 col-md-6 col-lg-5">
+                                <h1 class="mb-3">Promo Spesial Kemerdekaan</h1>
+                                <p class="mb-5">Menikmati Kemerdekaan <br> meriah dan penuh stylist</p>
+                                <a href="#" class="btn btn-warning shadow">Get it Now</a>
+                            </div>
+                            <div class="col-3 col-sm-6 col-md-4 col-lg-4 d-none d-sm-block offset-1">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <img src="asset/images/sneaker.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="row pt-5 justify-content-center">
+                            <div class="col-9 col-sm-4 col-md-6 col-lg-5">
+                                <h1 class="mb-3">Promo Spesial Liburan</h1>
+                                <p class="mb-5">Jadikan hari hari liburan <br> meriah dan penuh stylist</p>
+                                <a href="#" class="btn btn-warning shadow">Get it Now</a>
+                            </div>
+                            <div class="col-3 col-sm-6 col-md-4 col-lg-4 d-none d-sm-block offset-1">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <img src="asset/images/varka.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row pt-5 justify-content-center">
+                            <div class="col-9 col-sm-4 col-md-6 col-lg-5">
+                                <h1 class="mb-3">Promo Spesial Tahun Baru</h1>
+                                <p class="mb-5">Jadikan tahun barumu meriah dan penuh stylist</p>
+                                <a href="#" class="btn btn-warning shadow">Get it Now</a>
+                            </div>
+                            <div class="col-3 col-sm-6 col-md-4 col-lg-4 d-none d-sm-block offset-1">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <img src="asset/images/muslim3.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- akhir carousel -->
+    </div>
+    <section class="brand my-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <h3 class="text-secondary">Nike</h3>
+                </div>
+                <div class="col-md">
+                    <h3 class="text-secondary">HERTZ</h3>
+                </div>
+                <div class="col-md">
+                    <h3 class="text-secondary">Zoya</h3>
+                </div>
+                <div class="col-md">
+                    <h3 class="text-secondary">Casual</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="container my-5">
+        <div class="row mb-3">
+            <div class="col">
+                <h3>Promo Special</h3>
+                <p>Promo pakaian yang cocok saat liburan</p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-md-4 my-3 d-sm-block">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <img src="asset/images/muslim2.jpg" alt="" class="img-fluid">                      
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-warning">Tambah</button>
+                        <button class="btn btn-success w-50">Beli</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 my-3 d-sm-block">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <img src="asset/images/muslim3.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-warning">Tambah</button>
+                        <button class="btn btn-success w-50">Beli</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 my-3  d-sm-block ">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <img src="asset/images/bjuwanita.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-warning">Tambah</button>
+                        <button class="btn btn-success w-50">Beli</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-md-4 my-3 d-sm-block">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <img src="asset/images/rajut.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-warning">Tambah</button>
+                        <button class="btn btn-success w-50">Beli</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 my-3 d-sm-block">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <img src="asset/images/casual.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-warning">Tambah</button>
+                        <button class="btn btn-success w-50">Beli</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 my-3  d-sm-block ">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <img src="asset/images/varka.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-warning">Tambah</button>
+                        <button class="btn btn-success w-50">Beli</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<!-- footer -->
+<footer class="p-5 border-top">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-1">
+                <a href="">
+                   <h3>Tikako</h3>
+                </a>
+            </div>
+            <div class="col-7 col-sm-5 text-right">
+               
+            </div>
+        </div>
+
+        <div class="row mt-3 justify-content-between align-items-center">
+            <div class="col-5 align-self-center pt-3">
+                <p>All Right Reserved by Rahman Pambekti 2020</p>
+            </div>
+
+            <div class="col-7">
+                <nav class="nav justify-content-end text-uppercase">
+                    <a class="nav-link active" href="#">Bekti</a>
+                    <a class="nav-link" href="#">Belajar</a>
+                    <a class="nav-link" href="#">Layanan</a>
+                    <a class="nav-link pr-0" href="#">Tutorial</a>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- opsional assets bootstrap 4 -->
+    <script src="asset/bootstrap/js/jquery.min.js"></script>
+    <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+    <script src="asset/bootstrap/js/popper.min.js"></script>
+</body>
+
+</html>
